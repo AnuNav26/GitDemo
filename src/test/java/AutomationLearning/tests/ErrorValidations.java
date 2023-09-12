@@ -30,6 +30,14 @@ public class ErrorValidations extends BaseTest {
 	}
 	
 	@Test
+	public void gitTest()
+	{
+		
+		System.out.println("The changejs");
+		
+	}
+	
+	@Test
 	public void productErrorValidation() 
 	{
 		String productName="zara coat 3"; 
