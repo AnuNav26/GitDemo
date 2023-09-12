@@ -48,6 +48,11 @@ public class SubmitOrderJsonTest extends BaseTest {
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase( "Thankyou for the order."));
 		System.out.println(confirmMessage);
 		System.out.println("The change");
+		System.out.println("The change2");
+		System.out.println("The change3");
+		
+		
+		//change from y
 		
 	}
 
