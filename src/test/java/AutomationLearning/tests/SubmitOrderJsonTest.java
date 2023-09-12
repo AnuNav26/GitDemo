@@ -47,6 +47,8 @@ public class SubmitOrderJsonTest extends BaseTest {
 		String confirmMessage = confirmationpage.verifyConfirmationMessage();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase( "Thankyou for the order."));
 		System.out.println(confirmMessage);
+		System.out.println("The change");
+		
 	}
 
 	/*@Test(dependsOnMethods= {"submitOrder"},dataProvider="getData",groups={"Purchase"})
